@@ -68,7 +68,7 @@ st.header("Een data story over de invloed van klimaatverandering op ziektes")
 st.write("Over de jaren zien we de gevolgen van klimaatverandering op onze maatschappij. Denk aan de stijging van de zeespiegel, extreem weer, verlies van biodiversiteit, enzovoort. Maar een van de gevolgen van klimaatverandering waar niet veel mensen zich van bewust zijn, is het effect van klimaatverandering op de verspreiding van bepaalde ziekten. In deze datastory zullen we dieper ingaan op de toename van de ziekte malaria als gevolg van klimaatverandering en wat zijn de gevolgen van de stijging van malaria. Klik op deze link [(World Health Organization: WHO, 2018)](https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health) voor meer informatie.")
 
 #Figure 1 en 2:
-artikel1 = Image.open('afbeeldingen/artikel1.jpg')
+artikel1 = Image.open('afbeeldingen/artikel1.JPG')
 st.image(artikel1, caption="Figuur 1: Artikel over de invloed van klimaatverandering op Malaria")
 malaria_image = Image.open('afbeeldingen/malaria_parasiet.jpg')
 st.image(malaria_image, caption="Figuur 2: Malaria parasiet onder de microscoop", output_format='auto')
@@ -316,10 +316,10 @@ st.write("Het is belangrijk om te beseffen dat klimaatverandering slechts één 
 st.header("10. Wat nu?")
 st.write("De werkelijkheid is dat de afgelopen jaren het effect van klimaatverandering op de gezondheid van de maatschappij steeds duidelijker wordt. Bijvoorbeeld: ")
 st.write("1. Malaria is niet de enige ziekte die is toegenomen als gevolg van klimaatverandering. Er zijn andere ziekten zoals dengue, de ziekte van Lyme en het West-Nijlvirus die ook worden beïnvloed. Veranderingen in temperatuur, neerslagpatronen en verspreidingsgebieden van ziekteverwekkers dragen bij aan de opkomst en verspreiding van deze ziekten.[(Pathak & Pathak, 2023)](https://yaleclimateconnections.org/2023/02/climate-change-is-increasing-the-risk-of-infectious-diseases-worldwide/#:~:text=Climate%20change%20has%20already%20increased,the%20journal%20Nature%20Climate%20Change.)")
-artikel2 = Image.open('afbeeldingen/artikel2.jpg')
+artikel2 = Image.open('afbeeldingen/artikel2.JPG')
 st.image(artikel2, caption="Figuur 11: Artikel over de invloed van klimaatverandering op andere ziektes")
 st.write("2. De klimaatverandering heeft de mogelijkheid geopend voor de herontdekking van oude virussen en bacteriën die bevroren liggen in de permafrost. Als gevolg van klimaatverandering smelt de permafrost, waardoor deze micro-organismen van meer dan 50000 jaar oud vrijkomen in ons milieu. Dit brengt veel gezondheidsrisico's want deze virussen en bacteriën onbekend kunnen zijn voor ons immuunsysteem en de moderne geneeskunde. Deze situatie in de toekomst zou kunnen leiden tot nieuwe pandemieën[(Hunt, 2023)](https://edition.cnn.com/2023/03/08/world/permafrost-virus-risk-climate-scn/index.html)")
-artikel3 = Image.open('afbeeldingen/artikel3.jpg')
+artikel3 = Image.open('afbeeldingen/artikel3.JPG')
 st.image(artikel3, caption="Figuur 12: Artikel over de invloed van klimaatverandering bij het herontdekking van nieuwe micro-organismen")
 st.markdown("""____""")
 
