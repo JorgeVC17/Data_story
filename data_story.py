@@ -89,7 +89,7 @@ Jaar = st.sidebar.select_slider(
 st.sidebar.markdown("""____""")
 
 #Creert filtratie opties voor de Klimaat verandering dataset
-st.sidebar.header("Klimaatverandering dataset filter (Hoofdstuuk 5):")
+st.sidebar.header("Klimaatverandering dataset filter (Hoofdstuk 5):")
 
 Jaar2 = st.sidebar.select_slider(
     label="Kies welk jaar wil je nakijken:", 
