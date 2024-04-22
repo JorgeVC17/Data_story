@@ -12,13 +12,13 @@ Over the years, we have witnessed the consequences of climate change on our soci
 
 - This dataset provides valuable insights into the ongoing changes in our climate. It encompasses a comprehensive collection of temperature records, CO2 emissions data, and sea level rise measurements. With a focus on global trends, it enables researchers, scientists, and climate enthusiasts to analyze the impact of climate change on our planet since 2010. Kaggle. https://www.kaggle.com/datasets/goyaladi/climate-insights-dataset?select=climate_change_data.csv
 
-#### GISTEMP Dataset = gistemp_data.csv
+#### GISTEMP Dataset = gistemp_data.csv  https://data.giss.nasa.gov/gistemp/
 
 - GCAG: Global Climate Annual Gaps Filled (Deviations from the global average temperature)
 
 - GISTEMP: It's a climate dataset and analysis conducted by the Goddard Institute for Space Studies (GISS) of NASA.
 
-So, the GISTEMP and GCAG datasets are important tools for monitoring climate change and understanding global warming. Thus, climate change as well.
+So, the GISTEMP and GCAG datasets are important tools for monitoring climate change and understanding global warming. Thus, climate change as well. 
 
 ## Streamlit app
 
