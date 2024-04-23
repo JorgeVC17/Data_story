@@ -19,7 +19,7 @@ df = pd.read_csv("data/malaria_reported_numbers.csv")
 df1 = pd.read_csv("data/climate_change_data.csv")
 
 #Open de dataset van "Earth Surface Temperature:
-df_k = pd.read_csv("data/annual_csv.csv")
+df_k = pd.read_csv("data/gistemp_data.csv")
 
 #Malaria dataset nakijken en schoonmaken
 print("=======================MALARIA DATA NAKIJKEN=====================")
