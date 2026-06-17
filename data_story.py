@@ -10,7 +10,13 @@ import plotly.express as px
 import streamlit as st
 from PIL import Image
 import os
+import warnings
 
+warnings.filterwarnings(
+    "ignore",
+    message="When grouping with a length-1 list-like",
+    category=FutureWarning
+)
 
 #Open de dataset van "Malaria"
 df = pd.read_csv("data/malaria_reported_numbers.csv")
@@ -275,7 +281,6 @@ fig_klimaat3 = px.scatter(data_frame=df_k,
                      trendline_scope='overall',
                      title='Figuur 10: Correlatie tussen de oppervlaktetemperatuur van de aarde en tijd')
 
-
 #Update de axis van grafiek 6:
 fig_klimaat3.update_xaxes(title_text='Jaar')
 fig_klimaat3.update_yaxes(title_text='Gemiddelde Aarde temperatuur verandering')
@@ -345,10 +350,10 @@ st.write("World Health Organization: WHO. (2018). Heat and health. www.who.int. 
 st.write("World Health Organization: WHO & World Health Organization: WHO. (2023). Malaria. www.who.int. https://www.who.int/news-room/fact-sheets/detail/malaria")
 st.write("United Nations. (z.d.). Climate change and malaria - a complex relationship | United Nations. https://www.un.org/en/chronicle/article/climate-change-and-malaria-complex-relationship")
 st.write("Pathak, N., & Pathak, N. (2023). Climate change is increasing the risk of infectious diseases worldwide. Yale Climate Connections. https://yaleclimateconnections.org/2023/02/climate-change-is-increasing-the-risk-of-infectious-diseases-worldwide/#:~:text=Climate%20change%20has%20already%20increased,the%20journal%20Nature%20Climate%20Change.")
-st.write("Hunt, K. (2023, March 9). Scientists have revived a ‘zombie’ virus that spent 48,500 years frozen in permafrost. CNN. https://edition.cnn.com/2023/03/08/world/permafrost-virus-risk-climate-scn/index.html")
+st.write("Hunt, K. (2023, March 9). Scientists have revived a 'zombie' virus that spent 48,500 years frozen in permafrost. CNN. https://edition.cnn.com/2023/03/08/world/permafrost-virus-risk-climate-scn/index.html")
 st.markdown("""____""")
 
 #Feedback
-st.header("Jullie feedback is heel belangrijk voor mij om deze data story te kunnen verbeteren ;) ")
+st.header("Jullie feedback is heel belangrijk voor mij om deze data story te kunnen verbeteren")
 qrcode = Image.open('afbeeldingen/qrcode.png')
 st.image(qrcode)
